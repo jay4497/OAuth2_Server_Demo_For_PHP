@@ -1,0 +1,21 @@
+{
+  "name": "candy/oauth-server",
+  "description":"OAuth2 Server for PHP",
+  "keywords":["oauth","oauth2","auth","php"],
+  "type":"library",
+  "license":"MIT",
+  "autoload": {
+    "psr-0": { "OAuth2": "oauth2-server-php/src/"},
+    "psr-4": { "Candy\\": "src/"}
+  },
+  "require":{
+    "php":">=5.3.9",
+    "bshaffer/oauth2-server-php": "^1.10"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
