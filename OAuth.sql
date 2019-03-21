@@ -8,6 +8,8 @@ CREATE TABLE oauth_clients (
   PRIMARY KEY (client_id)
 );
 
+INSERT INTO `oauth_clients` VALUES ('testclient', 'testpass', 'client.php', 'authorization_code', 'get_user_info', '321');
+
 CREATE TABLE oauth_access_tokens (
   access_token         VARCHAR(40)    NOT NULL,
   client_id            VARCHAR(80)    NOT NULL,
